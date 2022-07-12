@@ -14,3 +14,13 @@ a {
 * {
   box-sizing: border-box;
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  .card{
+    @apply rounded-xl shadow-lg;
+  }
+}
